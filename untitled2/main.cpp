@@ -358,8 +358,6 @@ void saveToFile(T_STRUCT arr) {
 }
 
 int main() {
-    omp_set_num_threads(8);
-
     T_NUM_VEC allFound;
 
     T_STRUCTURE_VECTOR arr; // main data container

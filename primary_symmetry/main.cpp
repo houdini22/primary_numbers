@@ -606,7 +606,7 @@ int main() {
             continue;
         }
         if (base % 90 != 0) { // only multiply of 90
-            continue;
+            //continue;
         }
 
         T_NUM range = 0;

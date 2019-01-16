@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="primary_numbers"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/anonymous/Projects/primary_numbers/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/anonymous/Projects/primary_numbers/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/anonymous/Projects/primary_numbers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/anonymous/Projects/primary_numbers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/anonymous/Projects/primary_numbers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/anonymous/Projects/primary_numbers/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/anonymous/Projects/primary_numbers/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/anonymous/Projects/primary_numbers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/anonymous/Projects/primary_numbers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/anonymous/Projects/primary_numbers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primary_numbers">
+				<Option output="/home/anonymous/Projects/primary_numbers/cmake-build-debug/primary_numbers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anonymous/Projects/primary_numbers/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anonymous/Projects/primary_numbers/__SIEVE"/>
+					<Add directory="/home/anonymous/Projects/primary_numbers/not_primary"/>
+					<Add directory="/home/anonymous/Projects/primary_numbers/not_primary_old"/>
+					<Add directory="/home/anonymous/Projects/primary_numbers/not_primary_working"/>
+					<Add directory="/home/anonymous/Projects/primary_numbers/sequence_vectorized"/>
+					<Add directory="/home/anonymous/Projects/primary_numbers/sieve"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/anonymous/Projects/primary_numbers/cmake-build-debug/Makefile&quot;  VERBOSE=1 primary_numbers"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/anonymous/Projects/primary_numbers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/anonymous/Projects/primary_numbers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/anonymous/Projects/primary_numbers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primary_numbers/fast">
+				<Option output="/home/anonymous/Projects/primary_numbers/cmake-build-debug/primary_numbers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anonymous/Projects/primary_numbers/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/anonymous/Projects/primary_numbers/__SIEVE"/>
+					<Add directory="/home/anonymous/Projects/primary_numbers/not_primary"/>
+					<Add directory="/home/anonymous/Projects/primary_numbers/not_primary_old"/>
+					<Add directory="/home/anonymous/Projects/primary_numbers/not_primary_working"/>
+					<Add directory="/home/anonymous/Projects/primary_numbers/sequence_vectorized"/>
+					<Add directory="/home/anonymous/Projects/primary_numbers/sieve"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/anonymous/Projects/primary_numbers/cmake-build-debug/Makefile&quot;  VERBOSE=1 primary_numbers/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/anonymous/Projects/primary_numbers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/anonymous/Projects/primary_numbers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/anonymous/Projects/primary_numbers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/anonymous/Projects/primary_numbers/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/anonymous/Projects/primary_numbers/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/anonymous/Projects/primary_numbers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/anonymous/Projects/primary_numbers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/anonymous/Projects/primary_numbers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/__SIEVE/bigInt.cpp">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/__SIEVE/bigInt.h">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/__SIEVE/main.cpp">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/not_primary/bigInt.cpp">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/not_primary/bigInt.h">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/not_primary/main.cpp">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/not_primary_old/bigInt.cpp">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/not_primary_old/bigInt.h">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/not_primary_old/main.cpp">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/not_primary_working/BigInteger.cpp">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/not_primary_working/BigInteger.h">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/not_primary_working/BigIntegerAlgorithms.cpp">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/not_primary_working/BigIntegerAlgorithms.h">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/not_primary_working/BigIntegerLibrary.h">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/not_primary_working/BigIntegerUtils.cpp">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/not_primary_working/BigIntegerUtils.h">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/not_primary_working/BigUnsigned.cpp">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/not_primary_working/BigUnsigned.h">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/not_primary_working/BigUnsignedInABase.cpp">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/not_primary_working/BigUnsignedInABase.h">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/not_primary_working/NumberlikeArray.h">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/not_primary_working/main.cpp">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/primary_1/main.cpp">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/primary_symmetry/main.cpp">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/sequence/main.cpp">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/sequence_vectorized/bigInt.h">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/sequence_vectorized/main.cpp">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/sieve/bigInt.cpp">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/sieve/bigInt.h">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/sieve/main.cpp">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/test/main.cpp">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/untitled2/main.cpp">
+			<Option target="primary_numbers"/>
+		</Unit>
+		<Unit filename="/home/anonymous/Projects/primary_numbers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
